@@ -15,12 +15,3 @@ const products: Product[] = [
 console.log(`Usernames: ${JSON.stringify(usernames)}`);
 console.log(`Ratings: ${JSON.stringify(ratings)}`);
 console.log(`Products: ${JSON.stringify(products)}`);
-
-/*Завдання:
-
-Додай тип для масиву рядків usernames, використовуючи синтаксис [].
-Додай тип для масиву чисел ratings, використовуючи синтаксис [].
-Для масиву products:
-Створи окремий інтерфейс Product для елементів масиву.
-Типізуй сам масив за допомогою цього інтерфейсу.
-4. Залиш елементи масиву products без змін. */

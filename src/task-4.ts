@@ -8,9 +8,3 @@ function printUserInfo(name: string, age: number, email?: string): void {
 
 printUserInfo("Alice", 30);
 printUserInfo("Bob", 25, "bob@mail.com");
-
-/*Завдання:
-Додай явну типізацію до параметрів функції: name, age та email.
-Зроби параметр email опціональним – щоб функція могла працювати як з ним, так і без нього.
-Типізуй повернення функції, зауваж що вона нічого явно не повертає.
-Залиш реалізацію функції без змін. */
